@@ -1,0 +1,36 @@
+{
+  "name": "gitdetails",
+  "version": "1.0.0",
+  "description": "Trustly's Technical Challenge for Back-End / Full-Stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "./node_modules/.bin/mocha './tests/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuliogaio/gitdetails.git"
+  },
+  "author": "Túlio César Gaio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuliogaio/gitdetails/issues"
+  },
+  "homepage": "https://github.com/tuliogaio/gitdetails#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
